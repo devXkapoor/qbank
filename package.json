@@ -1,5 +1,5 @@
 {
-  "name": "qbank-phase0",
+  "name": "backend-qbank",
   "version": "0.1.0",
   "type": "module",
   "description": "Q&A Bank — Phase 0 vertical slice (auth + goals + one real generation call + list)",
