@@ -1,0 +1,31 @@
+{
+  "name": "qbank-phase0",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Q&A Bank — Phase 0 vertical slice (auth + goals + one real generation call + list)",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "db:push": "NODE_OPTIONS=--no-network-family-autoselection drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@fastify/cors": "^10.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.4",
+    "fastify": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.5",
+    "zod": "^3.23.8",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.9.0",
+    "drizzle-kit": "^0.28.1",
+    "typescript": "^5.6.3"
+  }
+}
